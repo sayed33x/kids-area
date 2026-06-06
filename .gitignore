@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-app/
+
+# SQLite database files (runtime data, not source)
+*.db
+*.db-shm
+*.db-wal
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { font-family: 'Tajawal', sans-serif; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+.btn { @apply px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer; }
+.btn-primary { @apply bg-blue-600 text-white hover:bg-blue-700; }
+.btn-success { @apply bg-green-600 text-white hover:bg-green-700; }
+.btn-danger { @apply bg-red-500 text-white hover:bg-red-600; }
+.btn-secondary { @apply bg-gray-200 text-gray-700 hover:bg-gray-300; }
+.input { @apply border border-gray-300 rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 text-right bg-white; }
+.card { @apply bg-white rounded-xl shadow-sm border border-gray-100 p-4; }
+.table-th { @apply bg-gray-50 text-gray-600 text-sm font-medium px-3 py-2 text-right; }
+.table-td { @apply px-3 py-2 text-sm text-gray-700 text-right border-b border-gray-50; }
